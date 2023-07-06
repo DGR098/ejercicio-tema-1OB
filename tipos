@@ -1,0 +1,48 @@
+package com.company;
+
+/**
+ * clase de prueba
+ * 
+ */
+
+public class tipos {
+
+    /**
+     * punto de entrada
+     * @param args
+     */
+
+    public static void main(String[] args) {
+        
+
+        // numericos
+        int num = 5;
+        long largo = 203;
+        short corto = 3;
+
+        // boleanos
+        boolean falso = false;
+        boolean verdad = true;
+
+        // decimales
+        float flotante = 2.2f;
+        double doble = 10.42d;
+
+        // texto
+        String hola = "Hola";
+        char caracter = 'e';
+        
+        // prints
+        System.out.println(num);
+        System.out.println(largo);
+        System.out.println(corto);
+        System.out.println(falso);
+        System.out.println(verdad);
+        System.out.println(flotante);
+        System.out.println(doble);
+        System.out.println(hola);
+        System.out.println(caracter);
+
+    }
+    
+}
